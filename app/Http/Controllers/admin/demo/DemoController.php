@@ -16,8 +16,8 @@ class DemoController extends Controller
         $data['css'] = array();
         $data['plugincss'] = array();
         $data['pluginjs'] = array();
-        $data['js'] = array('login.js');
-        $data['funinit'] = array('Login.init()'); 
+        $data['js'] = array('datatable.js');
+        $data['funinit'] = array('Datatable.init()'); 
         return view('admin.pages.demo.demo',$data);
     }
 }

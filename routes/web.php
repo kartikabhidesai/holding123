@@ -14,6 +14,7 @@
 //Route::get('/', function () {
 //    return view('welcome');
 //});
+Route::get('/','HomeController@index');
 Route::match(['get', 'post'], '/', ['as' => 'home', 'uses' => 'HomeController@index']);
 Route::match(['get', 'post'], 'admin', ['as' => 'admin', 'uses' => 'admin\LoginController@login']);
 Route::match(['get', 'post'], 'register', ['as' => 'register', 'uses' => 'admin\LoginController@register']);

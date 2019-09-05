@@ -15,4 +15,5 @@
 
 <link rel="stylesheet" type="text/css" href="{{ url('assets/css/style.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ url('assets/css/jquery.mCustomScrollbar.css') }}">
+ 
 </head>

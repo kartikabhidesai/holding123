@@ -1,11 +1,11 @@
 var Login = function(){
    
-    var validate = function(){
-             
+    var login = function(){
+            
     }
     return{
         init:function(){
-            validate();
+            login();
         },
     }
 }();

@@ -19,6 +19,8 @@
 <script  src="{{ url('assets/js/script.min.js') }}"></script>
 
 <script src="{{ url('assets/js/rocket-loader.min.js') }}" ></script>
+<script src="{{ url('assets/bower_components/datatables.net/js/jquery.dataTables.min.js') }}"></script>
+<script src="{{ url('assets/bower_components/datatables.net-responsive/js/dataTables.responsive.min.js') }}"></script>
 @if(!@empty($js))
     @foreach($js as $value)
               <script src="{{ url('js/'.$value) }}" type="text/javascript"></script>
