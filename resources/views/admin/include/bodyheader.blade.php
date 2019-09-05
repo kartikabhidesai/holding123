@@ -4,7 +4,7 @@
                     <a class="mobile-menu" id="mobile-collapse" href="#!">
                             <i class="feather icon-menu"></i>
                     </a>
-                    <a href="index.html">
+                    <a href="{{ route('dashboard') }}">
                             <img class="img-fluid" src="{{ url('assets/images/logo.png') }}" alt="Theme-Logo" />
                     </a>
                     <a class="mobile-options">
@@ -30,13 +30,13 @@
                                                     <i class="feather icon-chevron-down"></i>
                                             </div>
                                             <ul class="show-notification profile-notification dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
-                                                    <li>
-                                                            <a href="user-profile.html">
+<!--                                                    <li>
+                                                            <a href="{{ route('dashboard') }}">
                                                                     <i class="feather icon-user"></i> Profile
                                                             </a>
-                                                    </li>
+                                                    </li>-->
                                                     <li>
-                                                            <a href="auth-normal-sign-in.html">
+                                                            <a href="{{ route('admin') }}">
                                                                     <i class="feather icon-log-out"></i> Logout
                                                             </a>
                                                     </li>

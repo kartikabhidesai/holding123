@@ -3,7 +3,7 @@
     <div class="page-body">
         <div class="card">
                 <div class="card-header">
-                        <h5>`New` Constructor</h5>
+                        <h5>DEMO DATA TABLE</h5>
                 </div>
                 <div class="card-block">
                         <div class="dt-responsive table-responsive">

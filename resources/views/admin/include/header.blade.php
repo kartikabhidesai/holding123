@@ -15,5 +15,6 @@
 
 <link rel="stylesheet" type="text/css" href="{{ url('assets/css/style.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ url('assets/css/jquery.mCustomScrollbar.css') }}">
- 
+
+<link rel="stylesheet" type="text/css" href="{{ url('assets/bower_components/datatables.net-bs4/css/dataTables.bootstrap4.min.css') }}">
 </head>
