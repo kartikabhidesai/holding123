@@ -5,7 +5,6 @@
         <div class="card">
                 <div class="card-header">
                         <h5>`New` Constructor</h5>
-                        <span>Responsive will automatically detect new DataTable instances being created on a page and initialize itself if it finds the responsive option or responsive class name on the table, as shown in the other examples.</span>
                         <div class="card-header-right">
                                 <ul class="list-unstyled card-option">
                                         <li><i class="feather icon-maximize full-card"></i></li>
