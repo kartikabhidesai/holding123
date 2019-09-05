@@ -11,6 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+Route::match(['get', 'post'], '/', ['as' => 'home', 'uses' => 'HomeController@index']);
+Route::match(['get', 'post'], 'admin', ['as' => 'admin', 'uses' => 'admin\LoginController@login']);
+Route::match(['get', 'post'], 'register', ['as' => 'register', 'uses' => 'admin\LoginController@register']);
+Route::match(['get', 'post'], 'forgotpassword', ['as' => 'forgotpassword', 'uses' => 'admin\LoginController@forgotpassword']);
+
+Route::match(['get', 'post'], 'dashboard', ['as' => 'dashboard', 'uses' => 'admin\dashboard\DashboardController@dashboard']);
+
+Route::match(['get', 'post'], 'demo', ['as' => 'demo', 'uses' => 'admin\demo\DemoController@demo']);
