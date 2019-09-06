@@ -1,7 +1,7 @@
 var Datatable = function(){
    
     var datatable = function(){
-            $('#datatable').DataTable();
+            $('#employeeDatatables').DataTable();
     }
     return{
         init:function(){

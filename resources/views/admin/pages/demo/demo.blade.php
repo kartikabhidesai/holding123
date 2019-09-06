@@ -3,11 +3,11 @@
     <div class="page-body">
         <div class="card">
                 <div class="card-header">
-                        <h5>DEMO DATA TABLE</h5>
+                        <h5>INVENTORY DATA TABLE</h5>
                 </div>
                 <div class="card-block">
                         <div class="dt-responsive table-responsive">
-                                <table id="datatable" class="table table-striped table-bordered nowrap">
+                                <table id="employeeDatatables" class="table table-striped table-bordered nowrap">
                                         <thead>
                                                 <tr>
                                                         <th>First name</th>

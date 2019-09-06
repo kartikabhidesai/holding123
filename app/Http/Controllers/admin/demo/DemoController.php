@@ -14,10 +14,15 @@ class DemoController extends Controller
         
         $data['title'] = 'Demo | holding';
         $data['css'] = array();
-        $data['plugincss'] = array();
-        $data['pluginjs'] = array();
+        $data['plugincss'] = array('css/dataTables.bootstrap4.min.css');
+        $data['pluginjs'] = array('js/jquery.dataTables.min.js','js/dataTables.bootstrap4.min.js');
         $data['js'] = array('datatable.js');
         $data['funinit'] = array('Datatable.init()'); 
+        $data['header'] = array(
+           'title' => 'Inventory',
+            'breadcrumb' => array(
+                'Home' => route("dashboard"),
+                'Inventory' => 'Inventory'));
         return view('admin.pages.demo.demo',$data);
     }
 }
