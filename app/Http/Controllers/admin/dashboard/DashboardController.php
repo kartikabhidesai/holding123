@@ -14,7 +14,7 @@ class DashboardController extends Controller
         
         $data['title'] = 'Dashboard | holding';
         $data['css'] = array(); 
-        $data['plugincss'] = array();
+        $data['plugincss'] = array(); 
         $data['pluginjs'] = array();
         $data['js'] = array('login.js');
         $data['funinit'] = array('Login.init()'); 
