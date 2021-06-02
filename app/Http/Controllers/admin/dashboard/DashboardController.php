@@ -13,7 +13,7 @@ class DashboardController extends Controller
     public function dashboard(){
         
         $data['title'] = 'Dashboard | holding';
-        $data['css'] = array(); 
+        $data['css'] = array();
         $data['plugincss'] = array();
         $data['pluginjs'] = array();
         $data['js'] = array('login.js');
